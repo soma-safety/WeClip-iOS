@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F13AA9B1C60F89F00FA9EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13AA9A1C60F89F00FA9EF8 /* AppDelegate.swift */; };
+		9F13AA9D1C60F89F00FA9EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13AA9C1C60F89F00FA9EF8 /* ViewController.swift */; };
+		9F13AAA01C60F89F00FA9EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F13AA9E1C60F89F00FA9EF8 /* Main.storyboard */; };
+		9F13AAA31C60F89F00FA9EF8 /* weclip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F13AAA11C60F89F00FA9EF8 /* weclip.xcdatamodeld */; };
+		9F13AAA51C60F89F00FA9EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F13AAA41C60F89F00FA9EF8 /* Assets.xcassets */; };
+		9F13AAA81C60F89F00FA9EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F13AAA61C60F89F00FA9EF8 /* LaunchScreen.storyboard */; };
+		9F13AAB31C60F89F00FA9EF8 /* weclipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13AAB21C60F89F00FA9EF8 /* weclipTests.swift */; };
+		9F13AABE1C60F89F00FA9EF8 /* weclipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13AABD1C60F89F00FA9EF8 /* weclipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F13AAAF1C60F89F00FA9EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F13AA8F1C60F89F00FA9EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F13AA961C60F89F00FA9EF8;
+			remoteInfo = weclip;
+		};
+		9F13AABA1C60F89F00FA9EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F13AA8F1C60F89F00FA9EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F13AA961C60F89F00FA9EF8;
+			remoteInfo = weclip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F13AA971C60F89F00FA9EF8 /* weclip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weclip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F13AA9A1C60F89F00FA9EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F13AA9C1C60F89F00FA9EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F13AA9F1C60F89F00FA9EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F13AAA21C60F89F00FA9EF8 /* weclip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weclip.xcdatamodel; sourceTree = "<group>"; };
+		9F13AAA41C60F89F00FA9EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F13AAA71C60F89F00FA9EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F13AAA91C60F89F00FA9EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F13AAAE1C60F89F00FA9EF8 /* weclipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weclipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F13AAB21C60F89F00FA9EF8 /* weclipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weclipTests.swift; sourceTree = "<group>"; };
+		9F13AAB41C60F89F00FA9EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F13AAB91C60F89F00FA9EF8 /* weclipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weclipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F13AABD1C60F89F00FA9EF8 /* weclipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weclipUITests.swift; sourceTree = "<group>"; };
+		9F13AABF1C60F89F00FA9EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F13AA941C60F89F00FA9EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F13AAAB1C60F89F00FA9EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F13AAB61C60F89F00FA9EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F13AA8E1C60F89F00FA9EF8 = {
+			isa = PBXGroup;
+			children = (
+				9F13AA991C60F89F00FA9EF8 /* weclip */,
+				9F13AAB11C60F89F00FA9EF8 /* weclipTests */,
+				9F13AABC1C60F89F00FA9EF8 /* weclipUITests */,
+				9F13AA981C60F89F00FA9EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F13AA981C60F89F00FA9EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F13AA971C60F89F00FA9EF8 /* weclip.app */,
+				9F13AAAE1C60F89F00FA9EF8 /* weclipTests.xctest */,
+				9F13AAB91C60F89F00FA9EF8 /* weclipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F13AA991C60F89F00FA9EF8 /* weclip */ = {
+			isa = PBXGroup;
+			children = (
+				9F13AA9A1C60F89F00FA9EF8 /* AppDelegate.swift */,
+				9F13AA9C1C60F89F00FA9EF8 /* ViewController.swift */,
+				9F13AA9E1C60F89F00FA9EF8 /* Main.storyboard */,
+				9F13AAA41C60F89F00FA9EF8 /* Assets.xcassets */,
+				9F13AAA61C60F89F00FA9EF8 /* LaunchScreen.storyboard */,
+				9F13AAA91C60F89F00FA9EF8 /* Info.plist */,
+				9F13AAA11C60F89F00FA9EF8 /* weclip.xcdatamodeld */,
+			);
+			path = weclip;
+			sourceTree = "<group>";
+		};
+		9F13AAB11C60F89F00FA9EF8 /* weclipTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F13AAB21C60F89F00FA9EF8 /* weclipTests.swift */,
+				9F13AAB41C60F89F00FA9EF8 /* Info.plist */,
+			);
+			path = weclipTests;
+			sourceTree = "<group>";
+		};
+		9F13AABC1C60F89F00FA9EF8 /* weclipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F13AABD1C60F89F00FA9EF8 /* weclipUITests.swift */,
+				9F13AABF1C60F89F00FA9EF8 /* Info.plist */,
+			);
+			path = weclipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F13AA961C60F89F00FA9EF8 /* weclip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F13AAC21C60F89F00FA9EF8 /* Build configuration list for PBXNativeTarget "weclip" */;
+			buildPhases = (
+				9F13AA931C60F89F00FA9EF8 /* Sources */,
+				9F13AA941C60F89F00FA9EF8 /* Frameworks */,
+				9F13AA951C60F89F00FA9EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weclip;
+			productName = weclip;
+			productReference = 9F13AA971C60F89F00FA9EF8 /* weclip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F13AAAD1C60F89F00FA9EF8 /* weclipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F13AAC51C60F89F00FA9EF8 /* Build configuration list for PBXNativeTarget "weclipTests" */;
+			buildPhases = (
+				9F13AAAA1C60F89F00FA9EF8 /* Sources */,
+				9F13AAAB1C60F89F00FA9EF8 /* Frameworks */,
+				9F13AAAC1C60F89F00FA9EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F13AAB01C60F89F00FA9EF8 /* PBXTargetDependency */,
+			);
+			name = weclipTests;
+			productName = weclipTests;
+			productReference = 9F13AAAE1C60F89F00FA9EF8 /* weclipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F13AAB81C60F89F00FA9EF8 /* weclipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F13AAC81C60F89F00FA9EF8 /* Build configuration list for PBXNativeTarget "weclipUITests" */;
+			buildPhases = (
+				9F13AAB51C60F89F00FA9EF8 /* Sources */,
+				9F13AAB61C60F89F00FA9EF8 /* Frameworks */,
+				9F13AAB71C60F89F00FA9EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F13AABB1C60F89F00FA9EF8 /* PBXTargetDependency */,
+			);
+			name = weclipUITests;
+			productName = weclipUITests;
+			productReference = 9F13AAB91C60F89F00FA9EF8 /* weclipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F13AA8F1C60F89F00FA9EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "SunKyu Lee";
+				TargetAttributes = {
+					9F13AA961C60F89F00FA9EF8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9F13AAAD1C60F89F00FA9EF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9F13AA961C60F89F00FA9EF8;
+					};
+					9F13AAB81C60F89F00FA9EF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9F13AA961C60F89F00FA9EF8;
+					};
+				};
+			};
+			buildConfigurationList = 9F13AA921C60F89F00FA9EF8 /* Build configuration list for PBXProject "weclip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F13AA8E1C60F89F00FA9EF8;
+			productRefGroup = 9F13AA981C60F89F00FA9EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F13AA961C60F89F00FA9EF8 /* weclip */,
+				9F13AAAD1C60F89F00FA9EF8 /* weclipTests */,
+				9F13AAB81C60F89F00FA9EF8 /* weclipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F13AA951C60F89F00FA9EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F13AAA81C60F89F00FA9EF8 /* LaunchScreen.storyboard in Resources */,
+				9F13AAA51C60F89F00FA9EF8 /* Assets.xcassets in Resources */,
+				9F13AAA01C60F89F00FA9EF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F13AAAC1C60F89F00FA9EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F13AAB71C60F89F00FA9EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F13AA931C60F89F00FA9EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F13AA9D1C60F89F00FA9EF8 /* ViewController.swift in Sources */,
+				9F13AAA31C60F89F00FA9EF8 /* weclip.xcdatamodeld in Sources */,
+				9F13AA9B1C60F89F00FA9EF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F13AAAA1C60F89F00FA9EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F13AAB31C60F89F00FA9EF8 /* weclipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F13AAB51C60F89F00FA9EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F13AABE1C60F89F00FA9EF8 /* weclipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F13AAB01C60F89F00FA9EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F13AA961C60F89F00FA9EF8 /* weclip */;
+			targetProxy = 9F13AAAF1C60F89F00FA9EF8 /* PBXContainerItemProxy */;
+		};
+		9F13AABB1C60F89F00FA9EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F13AA961C60F89F00FA9EF8 /* weclip */;
+			targetProxy = 9F13AABA1C60F89F00FA9EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F13AA9E1C60F89F00FA9EF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F13AA9F1C60F89F00FA9EF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F13AAA61C60F89F00FA9EF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F13AAA71C60F89F00FA9EF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F13AAC01C60F89F00FA9EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F13AAC11C60F89F00FA9EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F13AAC31C60F89F00FA9EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weclip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunKyu.weclip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F13AAC41C60F89F00FA9EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weclip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunKyu.weclip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F13AAC61C60F89F00FA9EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weclipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunKyu.weclipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weclip.app/weclip";
+			};
+			name = Debug;
+		};
+		9F13AAC71C60F89F00FA9EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weclipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunKyu.weclipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weclip.app/weclip";
+			};
+			name = Release;
+		};
+		9F13AAC91C60F89F00FA9EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weclipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunKyu.weclipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weclip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9F13AACA1C60F89F00FA9EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weclipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunKyu.weclipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weclip;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F13AA921C60F89F00FA9EF8 /* Build configuration list for PBXProject "weclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F13AAC01C60F89F00FA9EF8 /* Debug */,
+				9F13AAC11C60F89F00FA9EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F13AAC21C60F89F00FA9EF8 /* Build configuration list for PBXNativeTarget "weclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F13AAC31C60F89F00FA9EF8 /* Debug */,
+				9F13AAC41C60F89F00FA9EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F13AAC51C60F89F00FA9EF8 /* Build configuration list for PBXNativeTarget "weclipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F13AAC61C60F89F00FA9EF8 /* Debug */,
+				9F13AAC71C60F89F00FA9EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F13AAC81C60F89F00FA9EF8 /* Build configuration list for PBXNativeTarget "weclipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F13AAC91C60F89F00FA9EF8 /* Debug */,
+				9F13AACA1C60F89F00FA9EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F13AAA11C60F89F00FA9EF8 /* weclip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F13AAA21C60F89F00FA9EF8 /* weclip.xcdatamodel */,
+			);
+			currentVersion = 9F13AAA21C60F89F00FA9EF8 /* weclip.xcdatamodel */;
+			path = weclip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F13AA8F1C60F89F00FA9EF8 /* Project object */;
+}
