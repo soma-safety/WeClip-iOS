@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var copyText: UITextView!
+    let pasteboart = UIPasteboard.generalPasteboard()
     override func viewDidLoad() {
         super.viewDidLoad()
+        copyText.text = pasteboart.string
         // Do any additional setup after loading the view, typically from a nib.
     }
 
